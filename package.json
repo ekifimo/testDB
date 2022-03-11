@@ -1,0 +1,28 @@
+{
+  "name": "testdb",
+  "version": "1.0.0",
+  "description": "Test Rest API Full",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development nodemon -r dotenv/config server.js"
+  },
+  "keywords": [
+    "Test",
+    "Rest",
+    "API",
+    "Full"
+  ],
+  "author": "Eki Panca Nugraha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.17.0"
+  }
+}
